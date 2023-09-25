@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;800&family=Mukta:wght@500;600;700;800&family=Poppins:wght@300;500;600;700;800;900&family=Ubuntu:ital,wght@0,700;1,500;1,700&display=swap');
+
+@font-face {
+    font-family: cooper;
+    src: url(./CooperLtBTWXXLight.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    padding: 50px 40px;
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav>h1{
+    font-family: cooper;
+    font-weight: 300;
+    font-size: 31px;
+    font-weight: 400;
+}
+
+.nav .part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+}
+
+.nav .part2 a{
+    text-decoration: none;
+    color: #222222;
+    margin: 20px;
+}
+
+.nav .part2 a:nth-last-child(1){
+    padding: 7px 18px;
+    border: 1px solid #000000b0;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav .part2 a:nth-last-child(1) h5{
+    font-weight: 300;
+    position: relative;
+    z-index: 99;
+}
+
+.nav .part2 a:nth-last-child(1) .green{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: springgreen;
+    transition: left 0.4s ease;
+}
+
+.nav .part2 a:nth-last-child(1):hover .green{
+    left: 0;
+}
+
+#main>h1{
+    font-family: cooper;
+    font-size: 5vw;
+    font-weight: 100;
+    text-transform: capitalize;
+    width: 60%;
+    text-align: center;
+    position: relative;
+    letter-spacing: -1px;
+    line-height: 80px;
+    z-index: 99;
+    font-weight: 400;
+}
+
+#main>h1::after{
+    content: '';
+    position: absolute;
+    background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+    background-size: cover;
+    width: 33%;
+    height: 16px;
+    bottom: -8%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#main .img1{
+    height: 510px;
+    width: 360px;
+    left: 6%;
+    top: 20%;
+    position: absolute;
+}
+
+#main .img2{
+    height: 240px;
+    width: 290px;
+    right: 27%;
+    top: 15%;
+    position: absolute;
+}
+
+#main .img3{
+    height: 300px;
+    width: 300px;
+    left: 71%;
+    bottom: 5%;
+    position: absolute;
+}
+
+
+#main img{
+    transition: margin 0.4s ease;
+}
+
+#main img:hover{
+    margin-top: -8px;
+}
+
+
+/* .loading{
+    height: 100%;
+    width: 100%;
+    background-color: #dedede;
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading h1{
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+} */
