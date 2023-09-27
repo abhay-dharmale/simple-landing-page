@@ -112,6 +112,7 @@ html, body {
     transform: translate(-50%, 0);
 }
 
+
 #main .img1{
     height: 510px;
     width: 360px;
@@ -129,13 +130,12 @@ html, body {
 }
 
 #main .img3{
-    height: 300px;
-    width: 300px;
-    left: 71%;
-    bottom: 5%;
     position: absolute;
+    height: 350px;
+    width: 290px;
+    right: 15%;
+    top: 50%;
 }
-
 
 #main img{
     transition: margin 0.4s ease;
@@ -145,19 +145,3 @@ html, body {
     margin-top: -8px;
 }
 
-
-/* .loading{
-    height: 100%;
-    width: 100%;
-    background-color: #dedede;
-    position: absolute;
-    z-index: 999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.loading h1{
-    font-size: 5rem;
-    font-family: 'Courier New', Courier, monospace;
-} */

@@ -1,35 +1,5 @@
 
 
-// let tl = gsap.timeline();
-
-// function timer(){
-//     let a = 0;
-//     setInterval(function(){
-//         a += Math.floor(Math.random() * 18);
-
-//         if(a<100){
-//             document.querySelector(".loading h1").innerHTML = a+"%";
-//         }else{
-//             a = 100;
-//             document.querySelector(".loading h1").innerHTML = a+"%";
-//         }
-//     },150);
-// }
-
-// tl.to(".loading h1", {
-//     delay: 1,
-//     duration: 0.9,
-//     onStart: timer()
-// })
-
-// tl.to(".loading", {
-//     top: "-100%",
-//     opacity: 0,
-//     delay:0.8,
-//     duration:1,
-// })
-
-
 gsap.from(".img1", {
     opacity: 0,
     duration: 1,
